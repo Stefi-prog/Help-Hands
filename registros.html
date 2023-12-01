@@ -1,0 +1,82 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="shortcut icon" href="./imagen/Logo-Help-Hands.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/registro.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <div class="wrapper">
+      <div class="form-box register">
+            <h2>Registrate</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><i class='bx bx-user'></i></span>
+                    <input type="text" required>
+                    <label>Nombre de Usuario</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"><i class='bx bx-envelope'></i></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"><i class='bx bx-lock-alt'></i></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Acepto los terminos y condiciones</label>
+                </div>
+
+                <button type="submit" class="btn">Registrarme</button>
+
+                <div class="login-register">
+                    <p>Si ya tenes la cuenta <a href="#" class="login-link">Ingresa</a> </p>
+                </div>
+            </form>
+
+        </div>
+        
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><i class='bx bx-envelope'></i></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"><i class='bx bx-lock-alt'></i></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Recordarme</label>
+                    <a href="#">Olvidaste la Contraseña</a>
+                </div>
+
+                <button type="submit" class="btn">Iniciar</button>
+
+                <div class="login-register">
+                    <p>Tenes cuenta? <a href="#" class="register-link">Registrate</a> </p>
+                </div>
+            </form>
+        </div>
+
+
+
+
+    </div>
+    <script src="./js/registro.js"></script>
+</body>
+</html>
